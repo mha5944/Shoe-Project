@@ -1,0 +1,31 @@
+@media only screen and (min-width: 1300px){
+  .carousel-caption {
+    top: 12rem;
+  }
+}
+@media only screen and (min-width: 1000px) and (max-width: 1300px) {
+  .carousel-caption {
+      top: 8rem;
+      left: 6rem;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1000px) {
+  .carousel-caption {
+      font-size: .75rem;
+      top: 6rem;
+      left: 5rem;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+  .carousel-caption {
+      font-size: .6rem;
+      left: 4rem;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .carousel-caption {
+    font-size: .5rem;
+    left: 4rem;
+  }
+}
