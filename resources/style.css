@@ -52,3 +52,7 @@
   opacity: .8;
   display: flex;
 }
+img {
+  max-width: 100%;
+  min-width: 100%;
+}
