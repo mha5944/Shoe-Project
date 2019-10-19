@@ -33,9 +33,8 @@
     </nav>
     <!-- Item Cards -->
      <div class="container mt-5 ">
-      <!-- first row -->
         <div class="row justify-content-center">
-          <div class="col col-12 col-md-4 col-lg-3">
+          <div class="col col-12 col-md-4 col-lg-3" onmouseover="handleMouseOver(this)" onmouseout="handleMouseOut(this)">
                 <div class="card border-0">
                     <img src="/shop/resources/Skechers-Flex-Appeal-.jpg" class="card-image w-100" alt="Skechers-Flex-Appeal">
                     <div class="card-body text-center">
@@ -43,8 +42,31 @@
                       <br><span class="text-secondary">Price: $59.99</span></p>
                     </div>
                 </div>
+                <div class="cardZoom card border rounded border-secondary display-block" style="display: none;">
+                  <img src="/shop/resources/Skechers-Flex-Appeal-.jpg" class="card-image w-100 h-auto" alt="Skechers-Flex-Appeal">
+                    <div class="card-body text-center">
+                      <p><span class="font-weight-bold">Skechers flex appeal</span> 
+                      <br><span class="text-secondary">Price: $59.99</span></p>
+                      <div>
+                        <table class="w-100">
+                          <tbody>
+                            <tr>
+                              <td>40+</td>
+                              <td>39+</td>
+                              <td>35+</td>
+                            </tr>
+                            <tr>
+                              <td>34+</td>
+                              <td>32+</td>
+                              <td>30+</td>
+                            </tr>
+                          </tbody> 
+                        </table>
+                      </div>
+                    </div>
+                </div>
             </div>
-            <div class="col col-12 col-md-4 col-lg-3">
+            <div class="col col-12 col-md-4 col-lg-3" onmouseover="handleMouseOver(this)" onmouseout="handleMouseOut(this)">
               <div class="card border-0">
                   <img src="/shop/resources/skechers_dual_lite_blure.jpg" class="card-image w-100 " alt="skechers_dual_lite_blure">
                   <div class="card-body text-center">
@@ -53,8 +75,32 @@
                     <br><span class="text-danger">On Sale!!</span></p>
                   </div>
               </div>
+              <div class="card border rounded border-secondary display-block" style="display: none;">
+                  <img src="/shop/resources/skechers_dual_lite_blure.jpg" class="card-image w-100 h-auto" alt="skechers_dual_lite_blure">
+                    <div class="card-body text-center">
+                      <p><span class="font-weight-bold">Skechers dual lite</span> 
+                      <br><span class="text-secondary">Price: $69.99</span></p>
+                      <div>
+                        <table class="w-100">
+                          <tbody>
+                            <tr>
+                              <td>40+</td>
+                              <td>39+</td>
+                              <td>35+</td>
+                            </tr>
+                            <tr>
+                              <td>34+</td>
+                              <td>32+</td>
+                              <td>30+</td>
+                            </tr>
+                          </tbody>
+                          
+                        </table>
+                      </div>
+                    </div>
+                </div>
           </div>
-          <div class="col col-12 col-md-4 col-lg-3">
+          <div class="col col-12 col-md-4 col-lg-3" onmouseover="handleMouseOver(this)" onmouseout="handleMouseOut(this)">
             <div class="card border-0">
                 <img src="/shop/resources/skechers_go_run_ride_6_road.jpg" class="card-image w-100" alt="skechers_go_run_ride_6_road">
                 <div class="card-body text-center">
@@ -62,6 +108,29 @@
                       <br><span class="text-secondary">Price: $89.99</span></p>
                 </div>
             </div>
+            <div class="cardZoom card border rounded border-secondary display-block" style="display: none;">
+                <img src="/shop/resources/skechers_go_run_ride_6_road.jpg" class="card-image w-100 h-auto" alt="skechers_go_run_ride_6_road">
+                  <div class="card-body text-center">
+                    <p><span class="font-weight-bold">Skechers go run ride</span> 
+                    <br><span class="text-secondary">Price: $89.99</span></p>
+                    <div>
+                      <table class="w-100">
+                        <tbody>
+                          <tr>
+                            <td>40+</td>
+                            <td>39+</td>
+                            <td>35+</td>
+                          </tr>
+                          <tr>
+                            <td>34+</td>
+                            <td>32+</td>
+                            <td>30+</td>
+                          </tr>
+                        </tbody> 
+                      </table>
+                    </div>
+                  </div>
+              </div>
         </div>
         <div class="col col-12 col-md-4 col-lg-3">
           <div class="card border-0">
@@ -97,7 +166,7 @@
     </div>
     
     
-
+  <script src="/shop/main.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
